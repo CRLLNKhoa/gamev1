@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <div class="row">
+                    <div id="main2">
+                        <h2>Bầu cua cá cọp</h2><hr id="line">
+                        <label>Chọn cược: <span id="subBaucua">*Chọn để bất đầu!</span></label><br>
+                        <div id="khuVuccuoc">
+                            <input class="hinhCuoc" id="chkBau" onclick="chonCuoc()" type="checkbox" value="Bầu"/>Bầu
+                            <input class="hinhCuoc" id="chkCua" onclick="chonCuoc()" type="checkbox" value="Cua"/>Cua
+                            <input class="hinhCuoc" id="chkCa" onclick="chonCuoc()" type="checkbox" value="Cá"/>Cá
+                            <input class="hinhCuoc" id="chkCop" onclick="chonCuoc()" type="checkbox" value="Cọp"/>Cọp
+                            <input class="hinhCuoc" id="chkNai" onclick="chonCuoc()"  type="checkbox" value="Nai"/>Nai
+                            <input class="hinhCuoc" id="chkGa" onclick="chonCuoc()" type="checkbox" value="Gà"/>Gà
+                        </div>
+                        <div id="btnCuoc"></div>
+                        <div id="xiNgau"></div>
+                        <div id="ket_qua_dat_cuoc"></div>
+                    </div>
+                    <div id="main3">
+                        <h2>Bài 3 lá</h2><hr id="line">
+                        <label for="" style="text-align:center; color: red">Do tác giả ngu, nên kết quả ra âm bạn tính hộ, và không có tính 3 cào nha :# </label><hr>
+                       <div class="row" id="khuVucbai">
+                            <div class="col-sm" id="khuBaimay">
+                               
+                                <div class="row">
+                                    <div class="col-sm" id="laBai1May"></div>
+                                    <div class="col-sm" id="laBai2May"></div>
+                                    <div class="col-sm" id="laBai3May"></div>
+                                </div>
+                                <div class="row">
+                                    <br> <p class="subNamenguoi">Bạn  ------></p><br><br>
+                                </div>
+                            </div>
+                            <div class="col-sm" id="khuBainguoi">
+                                <div class="row">
+                                    <br><p class="subNamemay"><------  AI</p><br><br>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm" id="laBai1Nguoi"></div>
+                                    <div class="col-sm" id="laBai2Nguoi"></div>
+                                    <div class="col-sm" id="laBai3Nguoi"></div>
+                                </div>
+                            </div>
+                       </div><hr>
+                       <div class="row" id="khuVucketQua">
+                        <button onclick="baiCao()" id="btnChiabai">Chia Bài</button><br>
+                       </div>
+                       <div id="ketQuabaiMay"></div>
+                        <div id="ketQuabaiNguoi"></div>
+                        <div id="ketQuachungCuoc"></div>
+                    </div>
+                </div><br>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div id="main">
+                        <h2>Tính tuổi</h2><hr id="line">
+                        <label>Nhập năm sinh của bạn:</label><span><input type="number" id="inputNamsinh" onchange="tinhTuoi()" onclick="tinhTuoi()"> </span>
+                        <!-- <button class="btn btn-sm btn-success">Tính</button> -->
+                        <div class="card" id="ket_qua_tinh_tuoi"></div>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div id="main1">
+                        <h2>Chẵn lẻ</h2><hr id="line">
+                        <label>Chọn:</label>
+                        <span><input type="radio" class="cuoc" name="datcuoc" id="datcuoc_1" value="1" onchange="chanLe()" onclick="chanLe()">Chẵn</span>
+                        <span><input type="radio" class="cuoc" name="datcuoc" id="datcuoc_2" value="2" onchange="chanLe()" onclick="chanLe()">Lẻ</span>
+                        <!-- <button class="btn btn-sm btn-success">Tính</button> -->
+                        <div class="card" name="ket_qua" id="ket_qua_chan_le"></div>
+                        <div id="diemSo"></div>
+                        <label for="checkbox1">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div id="main4">
+                        <div id="ngheNhac"> <iframe id="khungNhac" width="90%" height="300px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/346367168&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/yeonkkot" title="Yeonkkot" target="_blank" style="color: #cccccc; text-decoration: none;">Yeonkkot</a> · <a href="https://soundcloud.com/yeonkkot/sets/s12" title="Favorites" target="_blank" style="color: #cccccc; text-decoration: none;">Favorites</a></div>
+                    </div>
+                    <div id="main5">
+                    </div>
+                </div>     
+            </div>
+            </div>
+          </div>
+      </div>
+</body>
+</html>

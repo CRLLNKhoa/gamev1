@@ -1,0 +1,199 @@
+#main{
+    border: 10px;
+    background-color: beige;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#subBaucua{
+    color: red;
+}
+.hinhCuoc{
+    margin: 13px;
+    
+}
+#xiNgau{
+    text-align: center;
+    font-weight: bold;
+    color: purple;
+}
+#btnCuoc{
+    margin-left: 40%;
+}
+#main1{
+    border: 10px;
+    background-color: rgb(121, 231, 217);
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+#main2{
+    border: 10px;
+    background-color: aquamarine;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#main4{
+    border: 10px;
+    background-color: rgb(18, 19, 19);
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#main5{
+    border: 10px;
+    background-color: rgb(18, 19, 19);
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+#main3{
+    border: 10px;
+    background-color: aquamarine;
+    height: 450px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#btnChiabai{
+    margin-left: 40%;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+hr#line{
+    border-top: 10px solid back;
+    background-color: black;
+}
+#namSinh{
+    margin-left: 10px;
+}
+label{
+    margin-left: 5%;
+}
+.btn{
+    margin-left: 40%;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+.card{
+    height: 30px;
+    color: brown;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin-left: 50px;
+}
+#ket_qua_dat_cuoc{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+#khuBainguoi{
+    border: 10px;
+    margin-right: 15px;
+}
+#khuBaimay{
+    border: 10px;
+  
+    margin-left: 15px;
+}
+.subNamenguoi{
+    margin-top: 10px;
+    margin-left: 120px;
+    color: blue;
+    font-weight: bold;
+}
+.subNamemay{
+    color: red;
+    font-weight: bold;
+    
+}
+#laBai1May{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#laBai2May{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#laBai3May{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#laBai1Nguoi{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#laBai2Nguoi{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#laBai3Nguoi{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#ketQuabaiMay{
+    text-align: center;
+    margin-top: 10px;
+}
+#ketQuabaiNguoi{
+    text-align: center;
+    margin-top: 10px;
+}
+#ketQuachungCuoc{
+    color: red;
+    font-weight: 900;
+    text-align: center;
+}
+#ngheNhac{
+    margin-top: 10px;
+}
+#khungNhac{
+    margin-top: 10px;
+    margin-left: 20px;
+}
